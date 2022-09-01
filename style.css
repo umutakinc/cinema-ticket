@@ -36,6 +36,10 @@ body {
     border-radius: 3px;
     cursor: pointer;
     background-color: rgb(88, 92, 92);
+    transition: .15s all;
+}
+.box .item:hover {
+    scale: 1.25;
 }
 .box .item.yellow {
     background-color: rgb(202, 202, 56);
